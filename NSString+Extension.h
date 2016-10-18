@@ -17,6 +17,6 @@ typedef NS_OPTIONS(NSInteger, PINSegmentationOptions) {
 
 @interface NSString (Extension)
 
-- (NSArray<NSString *> *)segmentation:(PINSegmentationOptions)options;
+- (NSArray<NSString *> *)segment:(PINSegmentationOptions)options;
 
 @end

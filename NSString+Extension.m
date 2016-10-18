@@ -10,7 +10,7 @@
 
 @implementation NSString (Extension)
 
-- (NSArray<NSString *> *)segmentation:(PINSegmentationOptions)options {
+- (NSArray<NSString *> *)segment:(PINSegmentationOptions)options {
     
     BOOL deduplication = options & PINSegmentationOptionsDeduplication;
     BOOL keepSymbols = options & PINSegmentationOptionsKeepSymbols;
