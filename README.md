@@ -5,7 +5,7 @@
 ```objc
 #import "NSString+Extension.h"
 
-NSArray<NSString *> *texts = [@"测试中文分词功能" segmentation:PINSegmentationOptionsNone];
+NSArray<NSString *> *texts = [@"测试中文分词功能" segment:PINSegmentationOptionsNone];
 [texts enumerateObjectsUsingBlock:^(NSString * _Nonnull obj, NSUInteger idx, BOOL * _Nonnull stop) {
     NSLog(@"%@", obj);
 }];
